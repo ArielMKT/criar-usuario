@@ -1,0 +1,10 @@
+curl --location 'localhost:8080/criar-usuario' \
+--header 'Content-Type: application/json' \
+--data '{
+    "nome": "",
+    "email": "",
+    "cep": "",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+}'
